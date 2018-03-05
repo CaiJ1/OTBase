@@ -1,0 +1,16 @@
+PODS:
+  - OTBase (0.1.0)
+
+DEPENDENCIES:
+  - OTBase (from `../`)
+
+EXTERNAL SOURCES:
+  OTBase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OTBase: 52cbd6999ddd7c5573b70b3fdb66c1a5731dcf4e
+
+PODFILE CHECKSUM: d98b3b606a28a13c8af1d92cbf1858c74088f705
+
+COCOAPODS: 1.2.1

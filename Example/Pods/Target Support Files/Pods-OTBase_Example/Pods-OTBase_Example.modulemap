@@ -1,0 +1,6 @@
+framework module Pods_OTBase_Example {
+  umbrella header "Pods-OTBase_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
