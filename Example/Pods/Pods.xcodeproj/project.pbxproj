@@ -24,19 +24,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		014873EA204E499900954092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F849FECC77B6E8F79CF81270BB39F1;
+			remoteInfo = "OTBase-OTBase";
+		};
 		7F2479164D8F5804B445BBFC34D2D4C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2E69100D0427825CBC96ECA6B748E83A;
 			remoteInfo = OTBase;
-		};
-		B3BDC842A28E27C7ECF9E4FD17205406 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13F849FECC77B6E8F79CF81270BB39F1;
-			remoteInfo = "OTBase-OTBase";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -352,7 +352,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9AA93F3A5BA366E88FBF5ED979B27AF /* PBXTargetDependency */,
+				014873EB204E499900954092 /* PBXTargetDependency */,
 			);
 			name = OTBase;
 			productName = OTBase;
@@ -461,17 +461,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		014873EB204E499900954092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F849FECC77B6E8F79CF81270BB39F1 /* OTBase-OTBase */;
+			targetProxy = 014873EA204E499900954092 /* PBXContainerItemProxy */;
+		};
 		851E969C70CFF28F94AECBD6BDDF332C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTBase;
 			target = 2E69100D0427825CBC96ECA6B748E83A /* OTBase */;
 			targetProxy = 7F2479164D8F5804B445BBFC34D2D4C5 /* PBXContainerItemProxy */;
-		};
-		E9AA93F3A5BA366E88FBF5ED979B27AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OTBase-OTBase";
-			target = 13F849FECC77B6E8F79CF81270BB39F1 /* OTBase-OTBase */;
-			targetProxy = B3BDC842A28E27C7ECF9E4FD17205406 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,6 +540,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = OTBase;
@@ -799,6 +799,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = OTBase;
