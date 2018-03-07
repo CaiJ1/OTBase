@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JCViewController.h"
 
 FOUNDATION_EXPORT double OTBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char OTBaseVersionString[];

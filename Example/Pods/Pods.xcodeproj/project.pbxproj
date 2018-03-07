@@ -7,65 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014873E8204D466D00954092 /* JCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 014873E6204D466D00954092 /* JCViewController.h */; };
-		014873E9204D466D00954092 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014873E7204D466D00954092 /* JCViewController.m */; };
-		0D3F2A14B4FC52278F7481C0357095BD /* logo_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA00B7C4ABEA6536A9B38FE4293A637 /* logo_02.png */; };
+		0B72CD51531D3E19D477EC253BE36FFE /* logo_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 022D078A3B3DFFA3BFDA027A9858F5CB /* logo_02.png */; };
+		22D5C783714AD114940C3A8EEAAEE546 /* openApp.html in Resources */ = {isa = PBXBuildFile; fileRef = C5F0FB2181EDDF8031BC6A45CC11D1B4 /* openApp.html */; };
 		23F75BA2A1A9840A241FD93354000431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		372A8E56798BE4FE3576F0651A7822E7 /* iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99C2695C05F68067A8A430106E8A51BB /* iOS.bundle */; };
-		3FCC9E0A4E3423399B931603C249C61C /* OTBase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */; };
+		406905092240A00FFA866B1B90FE2B88 /* OTBase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */; };
 		7945B5DC4ABB1CADE422F803FE9FD0E4 /* Pods-OTBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB32EB90669A04EF453BEF8B0F2B3264 /* Pods-OTBase_Tests-dummy.m */; };
+		7AE301F96E771294CB822B4DAF993598 /* OTBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6EA80FD5964F03453F0FA84CEC5BD /* OTBase-dummy.m */; };
 		86B87BAF153016028FDC60C9A7D6F6F0 /* Pods-OTBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B07F3CF8A01716CE33DE9DE3D3A62814 /* Pods-OTBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A089F9DA86CB96147999913F99FC0A4B /* OTBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6EA80FD5964F03453F0FA84CEC5BD /* OTBase-dummy.m */; };
 		AA40C8CA2907DA8A599FBC9A13B30A16 /* Pods-OTBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F432CA2A0856CA2469F47469119A335 /* Pods-OTBase_Example-dummy.m */; };
+		AFD2BE602BDEC595F3B7AFE8FD1FB3A9 /* OTBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F29A548B96C9D2CBE26D9C668A2651 /* OTBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFA5729A2D6E6A37F70B5728A7B71027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C5282EFEB4FD2F8715A5AEE683630555 /* Pods-OTBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434E93F2F656BA912840AA7D8AB6D02 /* Pods-OTBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCAEAA0D845798208975CA35A2CF91FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E7C2563493602866C608C57E1D2581CA /* OTBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F29A548B96C9D2CBE26D9C668A2651 /* OTBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCE94951B7D2304C986048230A775CCB /* JCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F313DA78456F0BCDD66941BDF47C27 /* JCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51CB4B36FBC48AE377EC3713CE05E00 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AFF40D631CACB5DC6FD73792035F8 /* JCViewController.m */; };
+		E255FC3A557DC44DC46C5E6C47337145 /* iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81D5C8D55145AC1DCCBA98DE8ADDDD1D /* iOS.bundle */; };
+		EDA35362498791C92B260FCD9501D0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		014873EA204E499900954092 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13F849FECC77B6E8F79CF81270BB39F1;
-			remoteInfo = "OTBase-OTBase";
-		};
 		7F2479164D8F5804B445BBFC34D2D4C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E69100D0427825CBC96ECA6B748E83A;
+			remoteGlobalIDString = 35FC0BE45DEA711BB72B8EBF05CCBDA6;
 			remoteInfo = OTBase;
+		};
+		ABF1099861A1CDF369736841266A9865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7BBE5290F08B4E6FA9BE4958025897;
+			remoteInfo = "OTBase-OTBase";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014873E6204D466D00954092 /* JCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
-		014873E7204D466D00954092 /* JCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
-		034BA46484B8777D6B329F9E42CB1565 /* Pods_OTBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		022D078A3B3DFFA3BFDA027A9858F5CB /* logo_02.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_02.png; sourceTree = "<group>"; };
+		034BA46484B8777D6B329F9E42CB1565 /* Pods_OTBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBase_Example.framework; path = "Pods-OTBase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0434E93F2F656BA912840AA7D8AB6D02 /* Pods-OTBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTBase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		06F29A548B96C9D2CBE26D9C668A2651 /* OTBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBase-umbrella.h"; sourceTree = "<group>"; };
 		0C231E01942692C784A411CFF6966244 /* Pods-OTBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		137A8AA4A0C8F9396A767CD70AE4DE39 /* Pods-OTBase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBase_Tests-resources.sh"; sourceTree = "<group>"; };
 		29E0D02B8266D116DD813580C31160F6 /* Pods-OTBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E835E65C7F948BFBCBF5B025E8AF2DA /* OTBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OTBase.modulemap; sourceTree = "<group>"; };
+		2E835E65C7F948BFBCBF5B025E8AF2DA /* OTBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OTBase.modulemap; sourceTree = "<group>"; };
 		3E3B0DE4000D944F3B3B6D2729D96CB8 /* OTBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBase-prefix.pch"; sourceTree = "<group>"; };
 		4F432CA2A0856CA2469F47469119A335 /* Pods-OTBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBase_Example-dummy.m"; sourceTree = "<group>"; };
 		502EF4EAE62B4233F36C2CA0EF49E4D4 /* Pods-OTBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBase_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5DF442F3CC612B945F338E013371167C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69F313DA78456F0BCDD66941BDF47C27 /* JCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
+		6D9AFF40D631CACB5DC6FD73792035F8 /* JCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
 		72D6EA80FD5964F03453F0FA84CEC5BD /* OTBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBase-dummy.m"; sourceTree = "<group>"; };
 		774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBase.xcconfig; sourceTree = "<group>"; };
-		7AA00B7C4ABEA6536A9B38FE4293A637 /* logo_02.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_02.png; sourceTree = "<group>"; };
 		7FE3ECB8E7A1B9E706A5FF960DF74BB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D5C8D55145AC1DCCBA98DE8ADDDD1D /* iOS.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = iOS.bundle; sourceTree = "<group>"; };
 		82513F479DDB04130383C820EA207FA3 /* Pods-OTBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		830925951CAD1786C5BE38BE55BD760F /* Pods_OTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830925951CAD1786C5BE38BE55BD760F /* Pods_OTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBase_Tests.framework; path = "Pods-OTBase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E31C37D6D04065021F592696B15E44 /* ResourceBundle-OTBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OTBase-Info.plist"; sourceTree = "<group>"; };
 		8ABB41F3AEE6627F06BAFE1B2F32C213 /* Pods-OTBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99C2695C05F68067A8A430106E8A51BB /* iOS.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = iOS.bundle; sourceTree = "<group>"; };
-		A207FF3AFE522DB85F21B029BD001471 /* Pods-OTBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OTBase_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A207FF3AFE522DB85F21B029BD001471 /* Pods-OTBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OTBase_Tests.modulemap"; sourceTree = "<group>"; };
 		AB32EB90669A04EF453BEF8B0F2B3264 /* Pods-OTBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		AC0B032C1CEBAD36F1302470931135D1 /* Pods-OTBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD081B71FBA161F3969A3E29CF757EF5 /* Pods-OTBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -73,22 +74,15 @@
 		B07F3CF8A01716CE33DE9DE3D3A62814 /* Pods-OTBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTBase_Example-umbrella.h"; sourceTree = "<group>"; };
 		B41CC1FB0D2B4AAC71DA7E105718AF2B /* Pods-OTBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7FC5163E8D4DFB8B6BD167B391129AF /* Pods-OTBase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBase_Example-resources.sh"; sourceTree = "<group>"; };
+		C5F0FB2181EDDF8031BC6A45CC11D1B4 /* openApp.html */ = {isa = PBXFileReference; includeInIndex = 1; path = openApp.html; sourceTree = "<group>"; };
 		DAE519E8F4F9EB2B19F4D4A56C6535E7 /* Pods-OTBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTBase.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E44ACEB6FE735ADA786DD3A4E7AADE4C /* Pods-OTBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OTBase_Example.modulemap"; sourceTree = "<group>"; };
+		E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OTBase.bundle; path = OTBase.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44ACEB6FE735ADA786DD3A4E7AADE4C /* Pods-OTBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OTBase_Example.modulemap"; sourceTree = "<group>"; };
 		EFF1276E4204F045A0F7A6A1F8BB9E9D /* Pods-OTBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE26EEC77C8107D996A00B47207D2C88 /* OTBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE26EEC77C8107D996A00B47207D2C88 /* OTBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBase.framework; path = OTBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AFC5C8B3A4CE051EF32EE0791EEB6BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCAEAA0D845798208975CA35A2CF91FE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32FB2E47B279932FE644209337852B4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,10 +91,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA8BE97D14899B1D9057AC48483BB7D1 /* Frameworks */ = {
+		82105E813490439DE43AEDC6E9923474 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA35362498791C92B260FCD9501D0E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +104,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA5729A2D6E6A37F70B5728A7B71027 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E429B2A4F833643D9EEC36562BF4D977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,21 +129,12 @@
 		302346C74C0D751DF2B34DD33A5C50A1 /* OTBase */ = {
 			isa = PBXGroup;
 			children = (
-				7317CF5B060F84F854FFE8AF65908A10 /* OTBase */,
+				8CBFF05D80B302B42181154060895F53 /* OTBase */,
 				712799E95B85B85C1975237C366586D9 /* Resources */,
 				CB56A0CBCF31BA4BDAFAE15CC3748A01 /* Support Files */,
 			);
 			name = OTBase;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		30C434A15BB22A0FC8E48A1B55E7950E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				99C2695C05F68067A8A430106E8A51BB /* iOS.bundle */,
-				7AA00B7C4ABEA6536A9B38FE4293A637 /* logo_02.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		31E668D273D340467DA5EEBD909189CD /* Pods-OTBase_Example */ = {
@@ -180,20 +173,22 @@
 			path = "Target Support Files/Pods-OTBase_Tests";
 			sourceTree = "<group>";
 		};
+		469DDABF4DF0287ADDBB3CC9743F0827 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69F313DA78456F0BCDD66941BDF47C27 /* JCViewController.h */,
+				6D9AFF40D631CACB5DC6FD73792035F8 /* JCViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		712799E95B85B85C1975237C366586D9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				CCFEA4EE784BA66A33E71B17D3F1DE03 /* OTBase */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		7317CF5B060F84F854FFE8AF65908A10 /* OTBase */ = {
-			isa = PBXGroup;
-			children = (
-				F9A41A8F56844867FDBAF26A25A4C4C4 /* Classes */,
-			);
-			path = OTBase;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -215,6 +210,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		8CBFF05D80B302B42181154060895F53 /* OTBase */ = {
+			isa = PBXGroup;
+			children = (
+				469DDABF4DF0287ADDBB3CC9743F0827 /* Classes */,
+			);
+			name = OTBase;
+			path = OTBase;
+			sourceTree = "<group>";
+		};
 		8D71C58698BDAB088DE28ACA8F413613 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +228,17 @@
 				830925951CAD1786C5BE38BE55BD760F /* Pods_OTBase_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA220805BE99E9F285A688C0EFAE00C5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				81D5C8D55145AC1DCCBA98DE8ADDDD1D /* iOS.bundle */,
+				022D078A3B3DFFA3BFDA027A9858F5CB /* logo_02.png */,
+				C5F0FB2181EDDF8031BC6A45CC11D1B4 /* openApp.html */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -252,8 +267,9 @@
 		CCFEA4EE784BA66A33E71B17D3F1DE03 /* OTBase */ = {
 			isa = PBXGroup;
 			children = (
-				30C434A15BB22A0FC8E48A1B55E7950E /* Assets */,
+				AA220805BE99E9F285A688C0EFAE00C5 /* Assets */,
 			);
+			name = OTBase;
 			path = OTBase;
 			sourceTree = "<group>";
 		};
@@ -263,15 +279,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F9A41A8F56844867FDBAF26A25A4C4C4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				014873E6204D466D00954092 /* JCViewController.h */,
-				014873E7204D466D00954092 /* JCViewController.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,15 +292,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54BBA2208F83799D7D61AA4C983F9365 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				014873E8204D466D00954092 /* JCViewController.h in Headers */,
-				E7C2563493602866C608C57E1D2581CA /* OTBase-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C38BA6A8E7FAB151C8F1164B4B67A343 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,26 +300,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA618AA54E04FD2FA6DA659F98278C0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE94951B7D2304C986048230A775CCB /* JCViewController.h in Headers */,
+				AFD2BE602BDEC595F3B7AFE8FD1FB3A9 /* OTBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		13F849FECC77B6E8F79CF81270BB39F1 /* OTBase-OTBase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4804A97D7A91695ABA89074F9FC413ED /* Build configuration list for PBXNativeTarget "OTBase-OTBase" */;
-			buildPhases = (
-				147A66747617CF6D3609DB10D406E669 /* Sources */,
-				DA8BE97D14899B1D9057AC48483BB7D1 /* Frameworks */,
-				C26D57D2E6AFB48B1A8A59065E9A5DF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OTBase-OTBase";
-			productName = "OTBase-OTBase";
-			productReference = E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		209A3FB2FCB98C89C3935E76CA2F3438 /* Pods-OTBase_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D38059C9E3E83C04C9A214C9F5A66D2 /* Build configuration list for PBXNativeTarget "Pods-OTBase_Example" */;
@@ -340,24 +330,41 @@
 			productReference = 034BA46484B8777D6B329F9E42CB1565 /* Pods_OTBase_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2E69100D0427825CBC96ECA6B748E83A /* OTBase */ = {
+		35FC0BE45DEA711BB72B8EBF05CCBDA6 /* OTBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3913470EF431C99C2A6E427F9543F827 /* Build configuration list for PBXNativeTarget "OTBase" */;
+			buildConfigurationList = FAAB52335069F7C31AC243F5B1414BDD /* Build configuration list for PBXNativeTarget "OTBase" */;
 			buildPhases = (
-				0F6AC2CF51622A4936F58F89209BB356 /* Sources */,
-				2AFC5C8B3A4CE051EF32EE0791EEB6BA /* Frameworks */,
-				B2851D5533E1E215E7404968BE44117F /* Resources */,
-				54BBA2208F83799D7D61AA4C983F9365 /* Headers */,
+				2F1AD992B6892319F49AA0FFAE04191B /* Sources */,
+				82105E813490439DE43AEDC6E9923474 /* Frameworks */,
+				DDBD153F5698053F9ABF337B8D628E59 /* Resources */,
+				EA618AA54E04FD2FA6DA659F98278C0A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				014873EB204E499900954092 /* PBXTargetDependency */,
+				FE714236B75E366986411A11ECF44E25 /* PBXTargetDependency */,
 			);
 			name = OTBase;
 			productName = OTBase;
 			productReference = FE26EEC77C8107D996A00B47207D2C88 /* OTBase.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		AB7BBE5290F08B4E6FA9BE4958025897 /* OTBase-OTBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBF0009B754C5725FF5242EA79EDE94 /* Build configuration list for PBXNativeTarget "OTBase-OTBase" */;
+			buildPhases = (
+				8D5A7857BB7778F5A39CE4AD5FA46761 /* Sources */,
+				E429B2A4F833643D9EEC36562BF4D977 /* Frameworks */,
+				21C8B22C8E0BAB18E2CD46C3F197FFB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTBase-OTBase";
+			productName = "OTBase-OTBase";
+			productReference = E13A3D026A0B1717E764B4607E500AD0 /* OTBase.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		DF2DEEE50DF72533BC85934AB5771211 /* Pods-OTBase_Tests */ = {
 			isa = PBXNativeTarget;
@@ -397,8 +404,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E69100D0427825CBC96ECA6B748E83A /* OTBase */,
-				13F849FECC77B6E8F79CF81270BB39F1 /* OTBase-OTBase */,
+				35FC0BE45DEA711BB72B8EBF05CCBDA6 /* OTBase */,
+				AB7BBE5290F08B4E6FA9BE4958025897 /* OTBase-OTBase */,
 				209A3FB2FCB98C89C3935E76CA2F3438 /* Pods-OTBase_Example */,
 				DF2DEEE50DF72533BC85934AB5771211 /* Pods-OTBase_Tests */,
 			);
@@ -406,36 +413,37 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B2851D5533E1E215E7404968BE44117F /* Resources */ = {
+		21C8B22C8E0BAB18E2CD46C3F197FFB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCC9E0A4E3423399B931603C249C61C /* OTBase.bundle in Resources */,
+				E255FC3A557DC44DC46C5E6C47337145 /* iOS.bundle in Resources */,
+				0B72CD51531D3E19D477EC253BE36FFE /* logo_02.png in Resources */,
+				22D5C783714AD114940C3A8EEAAEE546 /* openApp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C26D57D2E6AFB48B1A8A59065E9A5DF1 /* Resources */ = {
+		DDBD153F5698053F9ABF337B8D628E59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372A8E56798BE4FE3576F0651A7822E7 /* iOS.bundle in Resources */,
-				0D3F2A14B4FC52278F7481C0357095BD /* logo_02.png in Resources */,
+				406905092240A00FFA866B1B90FE2B88 /* OTBase.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F6AC2CF51622A4936F58F89209BB356 /* Sources */ = {
+		2F1AD992B6892319F49AA0FFAE04191B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A089F9DA86CB96147999913F99FC0A4B /* OTBase-dummy.m in Sources */,
-				014873E9204D466D00954092 /* JCViewController.m in Sources */,
+				D51CB4B36FBC48AE377EC3713CE05E00 /* JCViewController.m in Sources */,
+				7AE301F96E771294CB822B4DAF993598 /* OTBase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		147A66747617CF6D3609DB10D406E669 /* Sources */ = {
+		8D5A7857BB7778F5A39CE4AD5FA46761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,16 +469,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		014873EB204E499900954092 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13F849FECC77B6E8F79CF81270BB39F1 /* OTBase-OTBase */;
-			targetProxy = 014873EA204E499900954092 /* PBXContainerItemProxy */;
-		};
 		851E969C70CFF28F94AECBD6BDDF332C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTBase;
-			target = 2E69100D0427825CBC96ECA6B748E83A /* OTBase */;
+			target = 35FC0BE45DEA711BB72B8EBF05CCBDA6 /* OTBase */;
 			targetProxy = 7F2479164D8F5804B445BBFC34D2D4C5 /* PBXContainerItemProxy */;
+		};
+		FE714236B75E366986411A11ECF44E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OTBase-OTBase";
+			target = AB7BBE5290F08B4E6FA9BE4958025897 /* OTBase-OTBase */;
+			targetProxy = ABF1099861A1CDF369736841266A9865 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -516,39 +525,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		191851F986217C113BAD0757377FEDCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OTBase/OTBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OTBase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OTBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -624,7 +600,7 @@
 			};
 			name = Release;
 		};
-		43606134E93B2046BB145C38B2E69B2B /* Release */ = {
+		2EE0988D755A325E2056A0CE89343A83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */;
 			buildSettings = {
@@ -641,22 +617,37 @@
 			};
 			name = Release;
 		};
-		51EDDA915ABE28D3F25B5C7FEF99808D /* Debug */ = {
+		531D9EC6FE88BCCDBB92D553A0FF59EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTBase";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/OTBase/ResourceBundle-OTBase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBase/OTBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = OTBase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5BAE4A8E6D846450C3F4336D8BEAE450 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -691,6 +682,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F1827362129488060D856FB6B54F5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTBase";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OTBase/ResourceBundle-OTBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OTBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -778,7 +786,7 @@
 			};
 			name = Release;
 		};
-		F61C9103302D718EE14BA7357148B8B0 /* Debug */ = {
+		E6FF03E6B3C7BD4EF9EA21A5FCFDBE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 774965133BC98D58368BC738669BBAE5 /* OTBase.xcconfig */;
 			buildSettings = {
@@ -799,7 +807,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = OTBase;
@@ -841,20 +848,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3913470EF431C99C2A6E427F9543F827 /* Build configuration list for PBXNativeTarget "OTBase" */ = {
+		2EBF0009B754C5725FF5242EA79EDE94 /* Build configuration list for PBXNativeTarget "OTBase-OTBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F61C9103302D718EE14BA7357148B8B0 /* Debug */,
-				191851F986217C113BAD0757377FEDCA /* Release */,
+				7F1827362129488060D856FB6B54F5C0 /* Debug */,
+				2EE0988D755A325E2056A0CE89343A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4804A97D7A91695ABA89074F9FC413ED /* Build configuration list for PBXNativeTarget "OTBase-OTBase" */ = {
+		FAAB52335069F7C31AC243F5B1414BDD /* Build configuration list for PBXNativeTarget "OTBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51EDDA915ABE28D3F25B5C7FEF99808D /* Debug */,
-				43606134E93B2046BB145C38B2E69B2B /* Release */,
+				E6FF03E6B3C7BD4EF9EA21A5FCFDBE3B /* Debug */,
+				531D9EC6FE88BCCDBB92D553A0FF59EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
