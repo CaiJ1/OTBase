@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## OTBase
 
-Copyright (c) 2018 1127462679@qq.com <1127462679@qq.com>
+Copyright (c) 2018 1127462679@qq.com <jiacai@jd.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

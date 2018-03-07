@@ -1,9 +1,9 @@
 {
   "name": "OTBase",
-  "version": "0.1.1",
-  "summary": "OTBase_Demo",
+  "version": "0.1.0",
+  "summary": "A short description of OTBase.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/CaiJ1/OTBase",
+  "homepage": "https://github.com/1127462679@qq.com/OTBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,8 @@
     "1127462679@qq.com": "jiacai@jd.com"
   },
   "source": {
-    "git": "https://github.com/CaiJ1/OTBase.git"
+    "git": "https://github.com/CaiJ1/OTBase.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
